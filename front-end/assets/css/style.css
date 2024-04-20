@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body, ul, li, a{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header.header{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(176, 103, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header .header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header .header__menu .header__menu__component{
+    margin-right: 20px;    
+}
+
+header.header .header__menu .header__menu__component:last-child{
+    margin-right: 0px;
+}
+
+header.header .header__menu .header__menu__component .header__link{
+    color: #fff;
+}
+
+/* header */
+
+/* lk */
+section.lk_section{
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+/* lk */
