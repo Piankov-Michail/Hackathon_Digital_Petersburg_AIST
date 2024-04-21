@@ -26,27 +26,29 @@
         $surname = $info_profile['surname'];
 ?>
 <section class="lk_section">
-    <h1 class="lk_title">
-        Личный кабинет
-    </h1>
-    <div class="my_info">
-        <div class="my_info__login">
-            <span>Логин:</span>
-            <?=$login?>
-        </div>    
-        <div class="my_info__name">
-            <span>Имя:</span>
-            <?=$name?>
+    <div class="lk__wrapper">
+        <h1 class="lk_title">
+            Личный кабинет
+        </h1>
+        <div class="my_info">
+            <div class="my_info__login">
+                <span>Логин:</span>
+                <?=$login?>
+            </div>    
+            <div class="my_info__name">
+                <span>Имя:</span>
+                <?=$name?>
+            </div>
+            <div class="my_info__surname">
+                <span>Фамилия:</span>
+                <?=$surname?>
+            </div>
         </div>
-        <div class="my_info__surname">
-            <span>Фамилия:</span>
-            <?=$surname?>
+        <div class="unlog">
+            <form action="" method="POST">
+                <input type="submit" name="unlogin" value="Выйти">
+            </form>
         </div>
-    </div>
-    <div class="unlog">
-        <form action="" method="POST">
-            <input type="submit" name="unlogin" value="Выйти">
-        </form>
     </div>
 </section>
 <?php

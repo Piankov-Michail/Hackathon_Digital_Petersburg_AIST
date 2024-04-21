@@ -4,10 +4,10 @@
                 <a class="header__link" href="/index.php">Главная</a>
             </li>
             <li class="header__menu__component">
-                <a class="header__link" href="#">Перевод</a>
+                <a class="header__link" href="prog.php">Подбор программы</a>
             </li>
             <li class="header__menu__component">
-                <a class="header__link" href="#">Калькулятор ЕГЭ</a>
+                <a class="header__link" href="calc.php">Поступление</a>
             </li>
             <li class="header__menu__component">
                 <a class="header__link" href="#">План на день</a>

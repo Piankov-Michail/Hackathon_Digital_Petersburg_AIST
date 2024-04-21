@@ -5,7 +5,9 @@
     require "header.php";
     if ($_SESSION['is_login'] != TRUE){
 ?>
-<form action="reg__process.php" class="form__reg" method="POST"> 
+<section class="reg">
+<form action="reg__process.php" class="form__reg" method="POST">
+        <h2>Регистрация</h2><br>
         <div class="login__box">
             <p class="form_auto_label">Логин</p>
             <input type="text" placeholder="Введите логин" name="login" autocomplete="off" required>        
@@ -26,9 +28,10 @@
             <p class="form_auto_label">Повторите пароль</p>
             <input type="password" placeholder="Введите пароль" name="password__sec" autocomplete="off" required>
         </div>
-        <input type="submit" value="Зарегестрироваться" class="sb" name="sub">
+        <br><input id="reg_button" type="submit" value="Зарегистрироваться" class="sb" name="sub"><br><br>
         <a href="auto.php">Уже есть аккаунт</a>
-</form> 
+</form>  
+</section>
 <?php
     }else{
         header("Location:/lk.php");
