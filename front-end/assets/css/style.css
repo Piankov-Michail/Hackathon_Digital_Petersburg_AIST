@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+input{
+    outline: none;
+    border: none;
+    padding: 0px 14px;
+    font-size: 13px !important;
+}
+
+body{
+    font-family: 'Trebuchet MS', serif;
+    min-height:100vh;
+}
+
+ul, li, a{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header.header{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(128, 145, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header .header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header .header__menu .header__menu__component{
+    margin-right: 20px;    
+}
+
+header.header .header__menu .header__menu__component:last-child{
+    margin-right: 0px;
+}
+
+header.header .header__menu .header__menu__component .header__link{
+    color: #fff;
+}
+
+/* header */
+
+/* lk */
+section.lk_section{
+    background-image: url("/assets/img/theme5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+}
+.lk_section .lk__wrapper{
+    padding: 25px;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.lk_section .lk_title{
+    margin-bottom: 20px;
+}
+.lk_section .my_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.my_info__login, .my_info__name{
+    margin-bottom: 10px;
+}
+.lk_section .unlog{
+    margin-top: 30px;
+}
+/* lk */
+.auto{
+    padding-top: 40px;
+    background-image: url("/assets/img/theme5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: calc(100vh - 60px);
+}
+.form__auto{
+    padding-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgba(150, 168, 233, 0.9);
+    border-radius: 70px;
+    font-size: 23px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 480px;
+    margin-right: 480px;
+    height: auto;
+    text-align: center;
+}
+.form__auto a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+div.login__box, div.password_box{
+    margin-bottom: 15px;
+}
+.reg{
+    background-image: url("/assets/img/theme5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: calc(100vh - 60px);
+}
+.form__reg{
+    background: linear-gradient(to right, transparent 0%, rgba(150, 168, 233, 0.9) 15%, rgba(150, 168, 233, 0.9) 85%, transparent 100%);;
+    font-size: 23px;
+    padding-top: 54.5px;
+    padding-bottom: 60px;
+    margin-left: 480px;
+    margin-right: 480px;
+    height: calc(100vh - 60px);
+    text-align: center;
+}
+.form__reg a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+form > div > p
+{
+    margin-bottom: 5px;
+}
+
+input{
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#reg_button, #auto_button{
+    background-color: rgb(128, 160, 254);
+}
+
+/* lk */
+
+/* calculator */
+.calculator{
+    background-image: url("/assets/img/fon.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.calculator .form_input{
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calculator .form_input input{
+    padding: 0 55px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form__calc{
+    margin-left: 60px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    height: 100%;
+}
+.naprs{
+    width: 80%;
+    margin-right: 20px;
+}
+.first_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calculator .naprs{
+    margin-top: 20px;
+}
+.prohodnoy_ball{
+    margin-top: 10px;
+}
+.plata{
+    margin-bottom: 10px;
+}
+.count_on_mesto{
+    margin-bottom: 10px;
+}
+.form__napr{
+    padding: 0 20px;
+    height: 250px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 12px 0 #dcdcdc;
+
+}
+.form__napr img{
+    width: 220px !important;
+    height: 220px !important;
+    border-radius: 30%;
+}
+/* calculator */
+
+/* prog */
+section.prog_sec{
+    background-image: url("/assets/img/fon.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 0 30px;
+}
+/* .prog_sec .form_prog{
+    margin-left: 30px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    height: 100%;
+} */
+.prog_sec form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+.prog_sec form p{
+    color: #fff;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.prog_sec .prof_blocks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.prog_sec form input{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.prog_sec .prof_block{
+    padding: 0 30px;
+    width: 900px;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px 0 #dcdcdc;
+}
+.prog_sec .prof_block .first__prof__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prog__form{
+    margin-left: 50px;
+}
