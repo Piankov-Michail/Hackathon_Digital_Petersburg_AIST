@@ -1,1 +1,1 @@
-# AI_Science_Team
+# Hackathon_Digital_Petersburg_AIST
